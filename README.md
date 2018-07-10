@@ -14,3 +14,4 @@
 4. Add a high score
 5. Make the high score persist across page reloads with [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 6. Add something you think the game is missing
+7. Draw your own sprite art
