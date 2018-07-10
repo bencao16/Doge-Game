@@ -1,20 +1,25 @@
+// Load the game states
 import intro from "./states/intro.js";
 import play from "./states/play.js";
 import gameover from "./states/gameover.js";
 
+// Create the game configuration
 const config = {
-    pixelArt: true,
-    width: 400,
-    height: 400,
-    physics: {
-        default: "arcade",
-    },
+  pixelArt: true,
+  width: 400,
+  height: 400,
+  physics: {
+    default: "arcade"
+  }
 };
 
+// Create the game
 const game = new Phaser.Game(config);
 
+// Add each scene
 game.scene.add("intro", intro);
 game.scene.add("main", play);
 game.scene.add("gameover", gameover);
 
+// Start the intro scene
 game.scene.start("intro");
