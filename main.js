@@ -2,6 +2,7 @@
 import intro from "./states/intro.js";
 import play from "./states/play.js";
 import gameover from "./states/gameover.js";
+import instructions from "./states/instructions.js";
 
 // Create the game configuration
 const config = {
@@ -20,6 +21,7 @@ const game = new Phaser.Game(config);
 game.scene.add("intro", intro);
 game.scene.add("main", play);
 game.scene.add("gameover", gameover);
+game.scene.add("instructions", instructions);
 
 // Start the intro scene
 game.scene.start("intro");

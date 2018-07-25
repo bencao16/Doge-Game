@@ -1,5 +1,26 @@
 body {
-   background: black; 
+   background: white; 
+   margin: 0;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(img/771202.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: fixed; 
+   top: 0; 
+   left: 0; 
+     
+   /* Preserve aspet ratio */
+   min-width: 100%;
+   min-height: 100%;
 }
+
+html {
+    height: 100%;
+}
+
 
 
